@@ -1,0 +1,230 @@
+#Assignment4
+#Report 
+
+
+
+
+This assignment has been code by Harshit Maheshwari (10290) and any resemblance to any other 
+assingnment code now or earlier is purely co-incidental :D
+_________________________________________________________________________________
+
+
+Using 90-10% Data Split the following results were obtained: 
+	Data Processing Done
+	SMO: 
+
+	Correctly Classified Instances        9381               93.8382 %
+	Incorrectly Classified Instances       616                6.1618 %
+	Kappa statistic                          0.9315
+	Mean absolute error                      0.1606
+	Root mean squared error                  0.2724
+	Relative absolute error                 89.2292 %
+	Root relative squared error             90.8268 %
+	Total Number of Instances             9997   
+
+Using cross-validation the following results were obtained:
+
+	Double layer neural network output -----
+		20,20 hidden neurons
+		PartA start
+		Data Processing Done
+		NN started...
+		NN trained... Now CrossValidating data...
+		NN:
+
+		Correctly Classified Instances        3394               84.85   %
+		Incorrectly Classified Instances       606               15.15   %
+		Kappa statistic                          0.8315
+		Mean absolute error                      0.0389
+		Root mean squared error                  0.1556
+		Relative absolute error                 21.6228 %
+		Root relative squared error             51.8818 %
+		Total Number of Instances             4000     
+
+
+
+	Single layer neural network output -----------
+		25 layered 
+		PartA start
+		Data Processing Done
+		NN started...
+		NN trained... Now CrossValidating data...
+		NN:
+
+		Correctly Classified Instances        3425               85.625  %
+		Incorrectly Classified Instances       575               14.375  %
+		Kappa statistic                          0.8401
+		Mean absolute error                      0.038 
+		Root mean squared error                  0.1522
+		Relative absolute error                 21.099  %
+		Root relative squared error             50.7364 %
+		Total Number of Instances             4000    
+
+
+	PartA start ----------------------
+		Data Processing Done
+		K-NN started...
+		K-NN build... Now cross Validating... 
+		knn:
+
+		Correctly Classified Instances        1763               88.15   %
+		Incorrectly Classified Instances       237               11.85   %
+		Kappa statistic                          0.8682
+		Mean absolute error                      0.0246
+		Root mean squared error                  0.1535
+		Relative absolute error                 13.6596 %
+		Root relative squared error             51.2018 %
+		Total Number of Instances             2000     
+
+		K-NN ended.
+	
+	SVM: 
+		
+
+
+
+-----------------------------------------------------output for 2nd part  using java---------------------------------
+PartB start (1)
+Bulding Naive Bayes...
+The parameters are: 
+Naive Bayes Classifier
+
+                 Class
+Attribute            0       1       2       3
+                (0.25)  (0.25)  (0.25)  (0.25)
+===============================================
+feature_0
+  mean          -0.0569  0.9416  1.9426  2.9416
+  std. dev.      1.0038  1.0048  1.0037  1.0049
+  weight sum        125     125     125     125
+  precision      0.0171  0.0171  0.0171  0.0171
+
+feature_1
+  mean          -0.0145  0.9857  1.9844   2.985
+  std. dev.      1.0646  1.0659  1.0651  1.0645
+  weight sum        125     125     125     125
+  precision      0.0176  0.0176  0.0176  0.0176
+
+
+
+PartB (2) start
+Bulding Naive Bayes...
+The parameters are: 
+Naive Bayes Classifier
+
+                 Class
+Attribute            0       1       2       3
+                (0.25)  (0.25)  (0.25)  (0.25)
+===============================================
+feature_0
+  mean           0.0596  1.0068   2.141  2.8374
+  std. dev.      1.0013  0.9723  0.8461  1.1226
+  weight sum        125     125     125     125
+  precision      0.0165  0.0165  0.0165  0.0165
+
+feature_1
+  mean          -0.0512  1.0675  2.0623  2.8954
+  std. dev.      0.9719  1.1029  1.0112  1.0408
+  weight sum        125     125     125     125
+  precision      0.0184  0.0184  0.0184  0.0184
+
+--------------------------------------------output over------------------------------------
+
+  
+  
+  -----------------------------------MATLAB--------------------------
+  2(a)
+   15    25
+   14.9991
+   25.0459
+    2.0000         0
+         0    2.5000
+    2.0081   -0.1172
+   -0.1172    2.4994
+
+   
+   2(b)
+       15    25
+
+   14.9830
+   25.0018
+    4.0000         0
+         0    6.2500
+    3.8660   -0.0508
+   -0.0508    6.3211
+   _______________________________
+   3(a)
+   
+   Gaussian mixture distribution with 3 components in 1 dimensions
+Component 1:
+Mixing proportion: 0.253333
+Mean:     4.9938
+
+Component 2:
+Mixing proportion: 0.506547
+Mean:    53.9518
+
+Component 3:
+Mixing proportion: 0.240119
+Mean:     4.9938
+
+
+    4.9938
+   53.9518
+    4.9938
+
+
+(:,:,1) =
+
+    0.9521
+
+
+(:,:,2) =
+
+  306.7978
+
+
+(:,:,3) =
+
+    0.9547
+	
+	---------
+	3(b)
+	Gaussian mixture distribution with 3 components in 1 dimensions
+Component 1:
+Mixing proportion: 0.103200
+Mean:     5.0075
+
+Component 2:
+Mixing proportion: 0.701800
+Mean:    74.9805
+
+Component 3:
+Mixing proportion: 0.195000
+Mean:    39.9389
+
+
+    5.0075
+   74.9805
+   39.9389
+
+
+(:,:,1) =
+
+    1.0545
+
+
+(:,:,2) =
+
+    5.2215
+
+
+(:,:,3) =
+
+    2.3566
+   
+   
+   
+   
+   
+   
